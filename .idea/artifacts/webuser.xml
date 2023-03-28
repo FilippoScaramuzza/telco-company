@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webuser">
+    <output-path>$PROJECT_DIR$/out/artifacts/webuser</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="db2_telco_webuser" />
+          <element id="module-output" name="db2_telco_ejb" />
+          <element id="jpa-descriptors" facet="db2_telco_ejb/jpa/JPA" />
+          <element id="jpa-descriptors" facet="db2_telco_webuser/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="db2_telco_webuser/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="db2_telco_webuser" />
+        <module name="db2_telco_ejb" />
+        <module name="db2_telco_webemployee" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="db2_telco_ejb" target="1.8" />
+      <module name="db2_telco_webemployee" target="1.8" />
+      <module name="db2_telco_webuser" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
